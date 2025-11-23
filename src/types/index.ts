@@ -30,6 +30,15 @@ export interface GameCard {
     right: Choice;
   };
   themes?: string[];
+  severity?: 'normal' | 'high' | 'critical';
+}
+
+export interface BreakingNewsEvent {
+  id: string;
+  headline: string;
+  description: string;
+  consequences: MetricChanges;
+  themes?: string[];
 }
 
 export interface GameState {
@@ -43,7 +52,12 @@ export interface GameState {
   flags: string[];
   deck: GameCard[];
   currentCard: GameCard | null;
+  activeEvent: BreakingNewsEvent | null;
   selectedTheme: string | null;
   gameOver: boolean;
   gameOverReason?: string;
+  endingTitle?: string;
+  consolationMessage?: string;
+  isVictory?: boolean;
+  gameOverType?: 'victory' | 'health_low' | 'economy_low' | 'votes_low' | 'relations_low';
 }

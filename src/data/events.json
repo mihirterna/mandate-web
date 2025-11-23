@@ -1,0 +1,88 @@
+[
+    {
+        "id": "market_crash",
+        "headline": "MARKET CRASH",
+        "description": "Global stock markets have plummeted. The economy is in freefall.",
+        "consequences": {
+            "economy": -20
+        },
+        "themes": [
+            "General",
+            "Mumbai",
+            "GenZ"
+        ]
+    },
+    {
+        "id": "viral_scandal",
+        "headline": "VIRAL SCANDAL",
+        "description": "A video of you mocking the poor has gone viral. The public is furious.",
+        "consequences": {
+            "votes": -15
+        },
+        "themes": [
+            "General",
+            "GenZ"
+        ]
+    },
+    {
+        "id": "natural_disaster",
+        "headline": "NATURAL DISASTER",
+        "description": "A massive cyclone has hit the coast. Infrastructure is destroyed.",
+        "consequences": {
+            "health": -10,
+            "economy": -10
+        },
+        "themes": [
+            "General",
+            "Mumbai"
+        ]
+    },
+    {
+        "id": "diplomatic_crisis",
+        "headline": "DIPLOMATIC CRISIS",
+        "description": "An ambassador has been expelled. Tensions are at an all-time high.",
+        "consequences": {
+            "relations": -20
+        },
+        "themes": [
+            "General",
+            "Delhi"
+        ]
+    },
+    {
+        "id": "smog_emergency",
+        "headline": "SMOG EMERGENCY",
+        "description": "AQI has hit 999. Hospitals are overflowing with respiratory cases.",
+        "consequences": {
+            "health": -20,
+            "economy": -5
+        },
+        "themes": [
+            "Delhi"
+        ]
+    },
+    {
+        "id": "data_leak",
+        "headline": "MASSIVE DATA LEAK",
+        "description": "Citizens' private data has been sold on the dark web. Trust is zero.",
+        "consequences": {
+            "votes": -10,
+            "relations": -10
+        },
+        "themes": [
+            "GenZ"
+        ]
+    },
+    {
+        "id": "infrastructure_collapse",
+        "headline": "BRIDGE COLLAPSE",
+        "description": "A major bridge has collapsed during rush hour. It's a tragedy.",
+        "consequences": {
+            "health": -15,
+            "votes": -10
+        },
+        "themes": [
+            "Mumbai"
+        ]
+    }
+]

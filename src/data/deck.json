@@ -1,37 +1,11 @@
 [
   {
-    "id": "intro_01",
-    "text": "Welcome, Leader. The nation awaits. First crisis: A factory is dumping toxic waste, but employs 5000 locals.",
-    "themes": [
-      "General",
-      "Delhi",
-      "Mumbai"
-    ],
-    "choices": {
-      "left": {
-        "text": "Shut it down",
-        "consequences": {
-          "health": 15,
-          "economy": -15,
-          "votes": 5
-        }
-      },
-      "right": {
-        "text": "Save Jobs",
-        "consequences": {
-          "health": -15,
-          "economy": 10,
-          "votes": -5
-        }
-      }
-    }
-  },
-  {
     "id": "delhi_yamuna_froth",
     "text": "Chhath Puja is here. The Yamuna is covered in toxic white foam. Devotees want to bathe.",
     "themes": [
       "Delhi"
     ],
+    "severity": "high",
     "choices": {
       "left": {
         "text": "Ban Entry",
@@ -57,6 +31,7 @@
     "themes": [
       "Delhi"
     ],
+    "severity": "high",
     "choices": {
       "left": {
         "text": "Implement It",
@@ -82,6 +57,7 @@
     "themes": [
       "Delhi"
     ],
+    "severity": "critical",
     "choices": {
       "left": {
         "text": "Regularize All",
@@ -107,6 +83,7 @@
     "themes": [
       "Delhi"
     ],
+    "severity": "critical",
     "choices": {
       "left": {
         "text": "Enforce Rule",
@@ -132,6 +109,7 @@
     "themes": [
       "Delhi"
     ],
+    "severity": "high",
     "choices": {
       "left": {
         "text": "Crack Down",
@@ -157,6 +135,7 @@
     "themes": [
       "Mumbai"
     ],
+    "severity": "high",
     "choices": {
       "left": {
         "text": "Blacklist Contractors",
@@ -182,6 +161,7 @@
     "themes": [
       "Mumbai"
     ],
+    "severity": "normal",
     "choices": {
       "left": {
         "text": "Grant Status",
@@ -207,6 +187,7 @@
     "themes": [
       "Mumbai"
     ],
+    "severity": "high",
     "choices": {
       "left": {
         "text": "Cut Trees",
@@ -232,6 +213,7 @@
     "themes": [
       "Mumbai"
     ],
+    "severity": "critical",
     "choices": {
       "left": {
         "text": "Public Audit",
@@ -257,6 +239,7 @@
     "themes": [
       "Mumbai"
     ],
+    "severity": "normal",
     "choices": {
       "left": {
         "text": "Cap Rents",
@@ -282,6 +265,7 @@
     "themes": [
       "GenZ"
     ],
+    "severity": "high",
     "choices": {
       "left": {
         "text": "Ban AI Tools",
@@ -307,6 +291,7 @@
     "themes": [
       "GenZ"
     ],
+    "severity": "normal",
     "choices": {
       "left": {
         "text": "Mandate It",
@@ -332,6 +317,7 @@
     "themes": [
       "GenZ"
     ],
+    "severity": "high",
     "choices": {
       "left": {
         "text": "Grant Status",
@@ -357,6 +343,7 @@
     "themes": [
       "GenZ"
     ],
+    "severity": "critical",
     "choices": {
       "left": {
         "text": "Cancel Exam",
@@ -382,6 +369,7 @@
     "themes": [
       "GenZ"
     ],
+    "severity": "normal",
     "choices": {
       "left": {
         "text": "Ban Brand",
@@ -409,6 +397,7 @@
       "Delhi",
       "Mumbai"
     ],
+    "severity": "critical",
     "choices": {
       "left": {
         "text": "Allow Route",
@@ -434,6 +423,7 @@
     "themes": [
       "General"
     ],
+    "severity": "critical",
     "choices": {
       "left": {
         "text": "Make Mandatory",
@@ -459,6 +449,7 @@
     "themes": [
       "General"
     ],
+    "severity": "high",
     "choices": {
       "left": {
         "text": "Pass Immediately",
@@ -484,6 +475,7 @@
     "themes": [
       "General"
     ],
+    "severity": "normal",
     "choices": {
       "left": {
         "text": "Keep Taxes High",
