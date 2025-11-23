@@ -1,5 +1,6 @@
 import { GameProvider } from '@/context/GameContext';
 import GameBoard from '@/components/GameBoard';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <GameProvider>
         <GameBoard />
       </GameProvider>
+      <SpeedInsights />
     </main>
   );
 }
