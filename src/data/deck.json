@@ -1,0 +1,506 @@
+[
+  {
+    "id": "intro_01",
+    "text": "Welcome, Leader. The nation awaits. First crisis: A factory is dumping toxic waste, but employs 5000 locals.",
+    "themes": [
+      "General",
+      "Delhi",
+      "Mumbai"
+    ],
+    "choices": {
+      "left": {
+        "text": "Shut it down",
+        "consequences": {
+          "health": 15,
+          "economy": -15,
+          "votes": 5
+        }
+      },
+      "right": {
+        "text": "Save Jobs",
+        "consequences": {
+          "health": -15,
+          "economy": 10,
+          "votes": -5
+        }
+      }
+    }
+  },
+  {
+    "id": "delhi_yamuna_froth",
+    "text": "Chhath Puja is here. The Yamuna is covered in toxic white foam. Devotees want to bathe.",
+    "themes": [
+      "Delhi"
+    ],
+    "choices": {
+      "left": {
+        "text": "Ban Entry",
+        "consequences": {
+          "health": 10,
+          "votes": -25,
+          "relations": -10
+        }
+      },
+      "right": {
+        "text": "Allow Rituals",
+        "consequences": {
+          "health": -25,
+          "votes": 20,
+          "relations": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "delhi_liquor_policy",
+    "text": "New Excise Policy: 'Buy One Get One' on liquor to boost revenue. Opposition calls it 'destroying youth'.",
+    "themes": [
+      "Delhi"
+    ],
+    "choices": {
+      "left": {
+        "text": "Implement It",
+        "consequences": {
+          "economy": 25,
+          "health": -15,
+          "votes": -10
+        }
+      },
+      "right": {
+        "text": "Scrap It",
+        "consequences": {
+          "economy": -20,
+          "health": 5,
+          "votes": 10
+        }
+      }
+    }
+  },
+  {
+    "id": "delhi_unauthorized_colonies",
+    "text": "40 lakh people live in unauthorized colonies. They demand property rights before elections.",
+    "themes": [
+      "Delhi"
+    ],
+    "choices": {
+      "left": {
+        "text": "Regularize All",
+        "consequences": {
+          "votes": 30,
+          "economy": -15,
+          "health": -10
+        }
+      },
+      "right": {
+        "text": "Demolish Illegal",
+        "consequences": {
+          "votes": -35,
+          "economy": 10,
+          "health": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "delhi_odd_even",
+    "text": "AQI is 500+. Doctors declare a health emergency. Odd-Even vehicle rule is the only quick fix.",
+    "themes": [
+      "Delhi"
+    ],
+    "choices": {
+      "left": {
+        "text": "Enforce Rule",
+        "consequences": {
+          "health": 10,
+          "economy": -10,
+          "votes": -15
+        }
+      },
+      "right": {
+        "text": "No Restrictions",
+        "consequences": {
+          "health": -25,
+          "economy": 5,
+          "votes": 10
+        }
+      }
+    }
+  },
+  {
+    "id": "delhi_water_tanker",
+    "text": "Summer peak. The 'Tanker Mafia' is selling free water at premium rates. People are rioting.",
+    "themes": [
+      "Delhi"
+    ],
+    "choices": {
+      "left": {
+        "text": "Crack Down",
+        "consequences": {
+          "votes": 20,
+          "economy": -5,
+          "relations": -10
+        }
+      },
+      "right": {
+        "text": "Ignore Mafia",
+        "consequences": {
+          "votes": -25,
+          "economy": 5,
+          "relations": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "mumbai_potholes",
+    "text": "Monsoon Potholes have killed 5 bikers this week. Contractors blame the rain.",
+    "themes": [
+      "Mumbai"
+    ],
+    "choices": {
+      "left": {
+        "text": "Blacklist Contractors",
+        "consequences": {
+          "votes": 25,
+          "economy": -10,
+          "relations": -15
+        }
+      },
+      "right": {
+        "text": "Quick Patchwork",
+        "consequences": {
+          "votes": -20,
+          "economy": -5,
+          "health": -5
+        }
+      }
+    }
+  },
+  {
+    "id": "mumbai_dahi_handi",
+    "text": "Govindas want 'Adventure Sport' status for Dahi Handi to get insurance. Courts say it's risky.",
+    "themes": [
+      "Mumbai"
+    ],
+    "choices": {
+      "left": {
+        "text": "Grant Status",
+        "consequences": {
+          "votes": 25,
+          "health": -15,
+          "relations": 5
+        }
+      },
+      "right": {
+        "text": "Follow Court",
+        "consequences": {
+          "votes": -20,
+          "health": 5,
+          "relations": -5
+        }
+      }
+    }
+  },
+  {
+    "id": "mumbai_aarey_metro",
+    "text": "Metro Shed in Aarey Forest. Trees vs Transport. Protesters have blocked the site.",
+    "themes": [
+      "Mumbai"
+    ],
+    "choices": {
+      "left": {
+        "text": "Cut Trees",
+        "consequences": {
+          "economy": 20,
+          "health": -15,
+          "votes": -10
+        }
+      },
+      "right": {
+        "text": "Move Shed",
+        "consequences": {
+          "economy": -25,
+          "health": 10,
+          "votes": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "mumbai_bmc_budget",
+    "text": "BMC is the richest civic body in Asia, but funds are 'missing'. Audit demanded.",
+    "themes": [
+      "Mumbai"
+    ],
+    "choices": {
+      "left": {
+        "text": "Public Audit",
+        "consequences": {
+          "votes": 20,
+          "relations": -25,
+          "economy": 5
+        }
+      },
+      "right": {
+        "text": "Internal Review",
+        "consequences": {
+          "votes": -20,
+          "relations": 10,
+          "economy": -5
+        }
+      }
+    }
+  },
+  {
+    "id": "mumbai_rent_control",
+    "text": "Rents in Bandra match Manhattan. Youth demand a Rent Control Act.",
+    "themes": [
+      "Mumbai"
+    ],
+    "choices": {
+      "left": {
+        "text": "Cap Rents",
+        "consequences": {
+          "votes": 25,
+          "economy": -20,
+          "relations": -10
+        }
+      },
+      "right": {
+        "text": "Free Market",
+        "consequences": {
+          "votes": -15,
+          "economy": 15,
+          "relations": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "genz_deepfake",
+    "text": "A deepfake of a top actress is viral. Calls for banning AI video tools entirely.",
+    "themes": [
+      "GenZ"
+    ],
+    "choices": {
+      "left": {
+        "text": "Ban AI Tools",
+        "consequences": {
+          "votes": 15,
+          "economy": -25,
+          "relations": -5
+        }
+      },
+      "right": {
+        "text": "Regulate Only",
+        "consequences": {
+          "votes": -10,
+          "economy": 10,
+          "relations": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "genz_pronouns",
+    "text": "Student Union demands mandatory pronoun usage in all official forms. Traditionalists are outraged.",
+    "themes": [
+      "GenZ"
+    ],
+    "choices": {
+      "left": {
+        "text": "Mandate It",
+        "consequences": {
+          "votes": -20,
+          "relations": -15,
+          "health": 5
+        }
+      },
+      "right": {
+        "text": "Reject It",
+        "consequences": {
+          "votes": 15,
+          "relations": 10,
+          "health": -5
+        }
+      }
+    }
+  },
+  {
+    "id": "genz_gig_rights",
+    "text": "Delivery partners are striking for 'Employee' status. 10-minute delivery will end.",
+    "themes": [
+      "GenZ"
+    ],
+    "choices": {
+      "left": {
+        "text": "Grant Status",
+        "consequences": {
+          "votes": 25,
+          "economy": -20,
+          "health": 10
+        }
+      },
+      "right": {
+        "text": "Support Startups",
+        "consequences": {
+          "votes": -20,
+          "economy": 20,
+          "health": -10
+        }
+      }
+    }
+  },
+  {
+    "id": "genz_exam_leak",
+    "text": "National Entrance Exam paper leaked on Telegram. 20 lakh students want a re-test.",
+    "themes": [
+      "GenZ"
+    ],
+    "choices": {
+      "left": {
+        "text": "Cancel Exam",
+        "consequences": {
+          "votes": 15,
+          "economy": -15,
+          "relations": -10
+        }
+      },
+      "right": {
+        "text": "Ignore Leak",
+        "consequences": {
+          "votes": -35,
+          "economy": 5,
+          "relations": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "genz_fast_fashion",
+    "text": "Ultra-fast fashion brand accused of slave labor. GenZ buys it anyway. Ban import?",
+    "themes": [
+      "GenZ"
+    ],
+    "choices": {
+      "left": {
+        "text": "Ban Brand",
+        "consequences": {
+          "economy": -10,
+          "relations": -10,
+          "votes": 5
+        }
+      },
+      "right": {
+        "text": "Keep Cheap Clothes",
+        "consequences": {
+          "economy": 10,
+          "relations": 5,
+          "votes": -5
+        }
+      }
+    }
+  },
+  {
+    "id": "sensitive_religious_procession",
+    "text": "A religious procession wants to pass through a sensitive neighborhood. Tension is high.",
+    "themes": [
+      "General",
+      "Delhi",
+      "Mumbai"
+    ],
+    "choices": {
+      "left": {
+        "text": "Allow Route",
+        "consequences": {
+          "votes": 20,
+          "relations": -25,
+          "health": -10
+        }
+      },
+      "right": {
+        "text": "Divert Route",
+        "consequences": {
+          "votes": -20,
+          "relations": 15,
+          "health": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "sensitive_language_imposition",
+    "text": "Central Govt wants to make Hindi mandatory in all state schools. South states threaten protest.",
+    "themes": [
+      "General"
+    ],
+    "choices": {
+      "left": {
+        "text": "Make Mandatory",
+        "consequences": {
+          "relations": -30,
+          "votes": -15,
+          "economy": -5
+        }
+      },
+      "right": {
+        "text": "State Choice",
+        "consequences": {
+          "relations": 20,
+          "votes": 10,
+          "economy": 5
+        }
+      }
+    }
+  },
+  {
+    "id": "sensitive_gender_bill",
+    "text": "Bill proposing 33% reservation for women in Parliament. Male MPs are stalling it.",
+    "themes": [
+      "General"
+    ],
+    "choices": {
+      "left": {
+        "text": "Pass Immediately",
+        "consequences": {
+          "votes": 25,
+          "relations": 10,
+          "economy": 5
+        }
+      },
+      "right": {
+        "text": "Delay for Consensus",
+        "consequences": {
+          "votes": -25,
+          "relations": -5,
+          "economy": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "general_fuel_tax",
+    "text": "Global oil prices dropped, but we can keep taxes high to fund welfare.",
+    "themes": [
+      "General"
+    ],
+    "choices": {
+      "left": {
+        "text": "Keep Taxes High",
+        "consequences": {
+          "economy": 20,
+          "votes": -15,
+          "health": 5
+        }
+      },
+      "right": {
+        "text": "Slash Prices",
+        "consequences": {
+          "economy": -20,
+          "votes": 20,
+          "health": -5
+        }
+      }
+    }
+  }
+]
