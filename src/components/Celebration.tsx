@@ -57,7 +57,7 @@ const Particle = ({ x, y, color, type }: { x: number; y: number; color: string, 
                 scale: [0, 1.5, 1],
                 rotate: rotation + 180
             }}
-            transition={{ duration: 1.5, ease: "easeIn" }}
+            transition={{ duration: 1.2, ease: "easeIn" }}
             className={`absolute text-red-600/60`}
         >
             {Icon && <Icon size={32} />}
@@ -70,9 +70,9 @@ export default function Celebration({ type = 'victory' }: { type?: CelebrationTy
     const [isGenerating, setIsGenerating] = useState(true);
 
     useEffect(() => {
-        // For defeat, stop generating after 1.5 seconds
+        // For defeat, stop generating after 1 second
         if (type !== 'victory') {
-            const timer = setTimeout(() => setIsGenerating(false), 1500);
+            const timer = setTimeout(() => setIsGenerating(false), 1000);
             return () => clearTimeout(timer);
         }
     }, [type]);
